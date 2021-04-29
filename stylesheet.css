@@ -51,7 +51,7 @@ body {
     padding-left: 20px;
   }
   
-  #billamt {
+  #totalBill {
     font-size: 16px;
     /*color: #2980b9;*/
     color: black;
@@ -68,13 +68,13 @@ body {
     
   }
   
-  #billamt:focus {
+  #totalBill:focus {
     background:#b0b0e4;
     border: 3px solid #2980b9;
     outline: none;
   }
   
-  #peopleamt {
+  #guests {
     width: 60%;
     padding: 5px 5px 8px 8px;
     margin-left: 65px;
@@ -94,7 +94,7 @@ body {
     display: inline;
   }
   
-  #serviceQual {
+  #rating {
     padding: 10px 10px 20px 20px;
     margin-left: px;
     font-size: 17px;
@@ -129,14 +129,14 @@ body {
     top: 1px;
   }
   
-  #totalTip {
+  #finalTip {
     font-size: 25px;
     margin-top: 5px;
     text-align: center;
     font-family: Arial, bold;
   }
   
-  #totalTip:before {
+  #finalTip:before {
     content: "Tip amount";
     font-size: 20px;
     font-weight: bold;
@@ -144,12 +144,12 @@ body {
     text-transform: uppercase;
   }
   
-  #totalTip sup {
+  #finalTip sup {
     font-size: 15px;
     top: -18px;
   }
   
-  #totalTip small {
+  #finalTip small {
     font-size: 20px;
     font-weight: bold;
     display: block;
