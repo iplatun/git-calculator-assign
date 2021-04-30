@@ -34,7 +34,8 @@ function calculateTip()
   finalTip = (totalBill * rating) / guests
 
   //Outputing results
-  document.getElementById("tip").innerText = finalTip
+  document.getElementById("tip").innerText = finalTip.toFixed(2)
+
 
   //Debug Logs
     //This is here so that I can tell what I have broken while working

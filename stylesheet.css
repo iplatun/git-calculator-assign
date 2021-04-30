@@ -12,8 +12,8 @@ body {
   }
   
   #container {
-    height: 550px;
-    width: 360px;
+    height: 580px;
+    width: 400px;
     margin: 100px auto;
     /* background: #f7f7f7; */
     background: rgb(180, 176, 170);
